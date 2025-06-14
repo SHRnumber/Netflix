@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav id="nav" class="nav">
+    <div class="nav__container">
+      <img class="nav__logo" src="images/netflix-logo.png" alt="Netflix Logo" />
+      <div class="nav__menu">
+        <a href="#" class="nav__link">Home</a>
+        <a href="#" class="nav__link">TV Shows</a>
+        <a href="#" class="nav__link">Movies</a>
+        <a href="#" class="nav__link">New & Popular</a>
+        <a href="#" class="nav__link">My List</a>
+      </div>
+      <div class="nav__right">
+        <i class="fas fa-search nav__icon"></i>
+        <i class="fas fa-bell nav__icon"></i>
+        <img class="nav__avatar" src="images/netflix-avatar.png" alt="Profile" />
+      </div>
+    </div>
+  </nav>
+
+  <header class="banner" style="background-image: url('images/banner.jpg');">
+    <div class="banner__contents">
+      <h1 class="banner__title">Money Heist</h1>
+      <p class="banner__info">
+        <span class="banner__match">98% Match</span>
+        <span class="banner__year">2017</span>
+        <span class="banner__rating">TV-MA</span>
+        <span class="banner__seasons">5 Seasons</span>
+      </p>
+      <p class="banner__description">
+        To carry out the biggest heist in history, a mysterious man called The Professor recruits
+        a band of eight robbers who have a single characteristic: none of them has anything to lose.
+      </p>
+      <div class="banner__buttons">
+        <button class="banner__button banner__button--play">
+          <i class="fas fa-play"></i> Play
+        </button>
+        <button class="banner__button banner__button--info">
+          <i class="fas fa-info-circle"></i> More Info
+        </button>
+      </div>
+    </div>
+    <div class="banner--fadeBottom"></div>
+  </header>
+
+  <main class="content">
+    <section class="row">
+      <h2 class="row__title">NETFLIX ORIGINALS</h2>
+      <div class="row__posters">
+        </div>
+    </section>
+
+    <section class="row">
+      <h2 class="row__title">Trending Now</h2>
+      <div class="row__posters">
+        </div>
+    </section>
+
+    </main>
+
+  <footer class="footer">
+    <div class="footer__social">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
+    <div class="footer__links">
+      <div class="footer__column">
+        <a href="#">Audio Description</a>
+        <a href="#">Investor Relations</a>
+        <a href="#">Legal Notices</a>
+      </div>
+      <div class="footer__column">
+        <a href="#">Help Center</a>
+        <a href="#">Jobs</a>
+        <a href="#">Cookie Preferences</a>
+      </div>
+      <div class="footer__column">
+        <a href="#">Gift Cards</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Corporate Information</a>
+      </div>
+      <div class="footer__column">
+        <a href="#">Media Center</a>
+        <a href="#">Privacy</a>
+        <a href="#">Contact Us</a>
+      </div>
+    </div>
+    <button class="footer__service">Service Code</button>
+    <p class="footer__copyright">© 1997-2023 Netflix, Inc.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
